@@ -11,6 +11,6 @@ if len(sys.argv) > 1:
     # Get address from clipboard.
 #    address = clipboard.paste()
 
-#webbrowser.open('https://www.baidu.com/s?wd=' + address)
-webbrowser.open('http://caipiao.163.com/award/ssq/2018001.html')
-webbrowser.open('http://caipiao.163.com/award/ssq/2018002.html')
+webbrowser.open('https://www.baidu.com/s?wd=' + address)
+#webbrowser.open('http://caipiao.163.com/award/ssq/2018001.html')
+#webbrowser.open('http://caipiao.163.com/award/ssq/2018002.html')

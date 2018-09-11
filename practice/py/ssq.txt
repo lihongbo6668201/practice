@@ -5,16 +5,16 @@
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<title>2018016期双色球_开奖结果|号码|时间|结果查询-网易彩票网</title>
+<title>2018002期双色球_开奖结果|号码|时间|结果查询-网易彩票网</title>
 
-<link rel="canonical" href="http://caipiao.163.com/award/ssq/2018016.html"/>
+<link rel="canonical" href="http://caipiao.163.com/award/ssq/2018002.html"/>
 
-<meta name="description" content="2018016期双色球, 2018016期双色球开奖结果, 2018016期双色球开奖号码" /> 
-<meta name="keywords" content="网易彩票网为您提供2018016期双色球开奖结果, 2018016期双色球开奖号码,中国福利彩票双色球2018016期开奖结果、时间、中奖查询、开奖公告、号码分析等服务。" />
+<meta name="description" content="2018002期双色球, 2018002期双色球开奖结果, 2018002期双色球开奖号码" /> 
+<meta name="keywords" content="网易彩票网为您提供2018002期双色球开奖结果, 2018002期双色球开奖号码,中国福利彩票双色球2018002期开奖结果、时间、中奖查询、开奖公告、号码分析等服务。" />
 
-<link rel="alternate" media="only screen and(max-width: 640px)"     href="http://caipiao.163.com/t/award/ssq/2018016.html" >
-<meta name="mobile-agent" content="format=xhtml;url=http://caipiao.163.com/m/award/ssq/2018016.html">
-<meta name="mobile-agent" content="format=wml;url=http://caipiao.163.com/t/award/ssq/2018016.html">
+<link rel="alternate" media="only screen and(max-width: 640px)"     href="http://caipiao.163.com/t/award/ssq/2018002.html" >
+<meta name="mobile-agent" content="format=xhtml;url=http://caipiao.163.com/m/award/ssq/2018002.html">
+<meta name="mobile-agent" content="format=wml;url=http://caipiao.163.com/t/award/ssq/2018002.html">
 
 <link rel="stylesheet" type="text/css" href="http://pimg1.126.net/caipiao/css2/base.css?2018082321201535030448"/>
 <link rel="stylesheet" type="text/css" href="http://pimg1.126.net/caipiao/css2/core.css?2018082321201535030448"/>
@@ -155,7 +155,7 @@ function checkLogin(fm){
 	
 <nav id="topNav">
 	<div id="topNavWrap">
-		<div id="topNavLeft"><script>window.Core && window.Core.navInit("http://pimg1.126.net/caipiao","","2018082321201535030448","1535991112545");</script></div>
+		<div id="topNavLeft"><script>window.Core && window.Core.navInit("http://pimg1.126.net/caipiao","","2018082321201535030448","1535990513673");</script></div>
 		<ul id="topNavRight">
 			<li><a href="https://epay.163.com/" id="myEpay" notice="false" target="_blank">我的网易宝</a>&nbsp;&nbsp;<span id="topEpayInfo"></span>|</li>
 			<li>
@@ -323,7 +323,7 @@ function checkLogin(fm){
 </nav>
 
 
-<div class="navBread"><a href="/">网易彩票</a> &gt; <a href="/award/ssq/">双色球开奖</a> &gt; 双色球2018016期</div>
+<div class="navBread"><a href="/">网易彩票</a> &gt; <a href="/award/ssq/">双色球开奖</a> &gt; 双色球2018002期</div>
 <!--主体 开始-->
 <div class="main">
   <!--左侧内容 开始-->
@@ -528,7 +528,7 @@ function checkLogin(fm){
         &nbsp;&nbsp; 期数：
         <span class="iSelectBox">
 		
-			<a href="/award/ssq/2018016.html" class="iSelect" id="change_date">2018016</a>
+			<a href="/award/ssq/2018002.html" class="iSelect" id="change_date">2018002</a>
 			<div class="iSelectList">
 			
 			<a href="/award/ssq/2018102.html" time="2018-09-02 21:15" sale="340812198" pool="1085333716" matchBall="02 06 11 19 21 28 05" bonus="一等奖,4,8922949|二等奖,163,120335|三等奖,1906,3000|四等奖,88291,200|五等奖,1349901,10|六等奖,10332754,5" >2018102</a>
@@ -1034,12 +1034,12 @@ function checkLogin(fm){
 		<div class="search_zj_content">
         <div class="search_zj_left">
         
-          <h2 class="clum_title">双色球第<span id="date_no">2018016</span>期开奖结果</h2>
-          <div class="linkRight"><a href="http://zx.caipiao.163.com/ssq/yuce/2018017.html" target="_blank">预测</a> | <a href="#anchorLink">奖金计算器</a></div>
-          <p>开奖时间：<span id="time">2018-02-06 21:15</span><br />
-            全国销量：<span class="FD3400_12_b" id="sale">338462386</span>元<br />
-            奖池奖金：<span class="FD3400_12_b" id="pool">415237924</span>元</p>
-          <p id="zj_area">红球号码： <span class="red_ball">01</span><span class="red_ball">11</span><span class="red_ball">12</span><span class="red_ball">18</span><span class="red_ball">25</span><span class="red_ball">27</span><br />
+          <h2 class="clum_title">双色球第<span id="date_no">2018002</span>期开奖结果</h2>
+          <div class="linkRight"><a href="http://zx.caipiao.163.com/ssq/yuce/2018003.html" target="_blank">预测</a> | <a href="#anchorLink">奖金计算器</a></div>
+          <p>开奖时间：<span id="time">2018-01-04 21:15</span><br />
+            全国销量：<span class="FD3400_12_b" id="sale">351610618</span>元<br />
+            奖池奖金：<span class="FD3400_12_b" id="pool">338840952</span>元</p>
+          <p id="zj_area">红球号码： <span class="red_ball">07</span><span class="red_ball">18</span><span class="red_ball">24</span><span class="red_ball">29</span><span class="red_ball">31</span><span class="red_ball">33</span><br />
             蓝球号码： <span class="blue_ball">16</span> <br/>
            
             </p>
@@ -1058,36 +1058,36 @@ function checkLogin(fm){
             </tr>
             <tr>
               <td>一等奖</td>
-              <td>4</td>
-              <td>9593701</td>
+              <td>3</td>
+              <td>10000000</td>
             </tr>
             <tr>
               <td bgcolor="#FAFAFA">二等奖</td>
-              <td bgcolor="#FAFAFA">98</td>
-              <td bgcolor="#FAFAFA">234372</td>
+              <td bgcolor="#FAFAFA">94</td>
+              <td bgcolor="#FAFAFA">319928</td>
             </tr>
             <tr>
               <td>三等奖</td>
-              <td>1261</td>
+              <td>789</td>
               <td>3000</td>
             </tr>
             <tr>
               <td bgcolor="#FAFAFA">四等奖</td>
-              <td bgcolor="#FAFAFA">61624</td>
+              <td bgcolor="#FAFAFA">49232</td>
               <td bgcolor="#FAFAFA">200</td>
             </tr>
             <tr>
               <td>五等奖</td>
-              <td>1175404</td>
+              <td>1054173</td>
               <td>10</td>
             </tr>
             <tr>
               <td bgcolor="#FAFAFA">六等奖</td>
-              <td bgcolor="#FAFAFA">9222140</td>
+              <td bgcolor="#FAFAFA">5848195</td>
               <td bgcolor="#FAFAFA">5</td>
             </tr>
           </table>
-          <div class="linkbox"> <a href="/award/ssq/2018015.html" target="_blank">&lt;&lt; 双色球<span>2018015</span>期</a> <a href="/award/ssq/2018017.html" target="_blank">双色球<span>2018017</span>期 &gt;&gt;</a></div>
+          <div class="linkbox"> <a href="/award/ssq/2018001.html" target="_blank">&lt;&lt; 双色球<span>2018001</span>期</a> <a href="/award/ssq/2018003.html" target="_blank">双色球<span>2018003</span>期 &gt;&gt;</a></div>
        	  <div class="phoneAppDownload">
 				<i></i>
 				<a href="http://caipiao.163.com/outside/getclient_cp.html?from=kjxq" target="_blank">1元抢海量新品潮货，立即参与<em></em></a>
@@ -1104,7 +1104,7 @@ function checkLogin(fm){
         <dd id="copy_tag"><span><em>方案粘贴</em></span></dd>
         <dd class="more_tags"></dd>
       </dl>
-      <span class="anchorLink" id="anchorLink" name="anchorLink">双色球第<span>2018016</span>期中奖查询</span>
+      <span class="anchorLink" id="anchorLink" name="anchorLink">双色球第<span>2018002</span>期中奖查询</span>
       <div class="select_box">
 	  
 	  	  <!--自助选号 开始--> 
@@ -1317,7 +1317,7 @@ function checkLogin(fm){
 <!--冷热号 开始-->
 <div class="num_analysis" tname="ssq" id="hotcollCon">
   <div class="all_title gray_title">
-    <div class="title_m f14">双色球2018016期冷热号分析</div>
+    <div class="title_m f14">双色球2018002期冷热号分析</div>
     
   </div>
   
@@ -1368,38 +1368,38 @@ function checkLogin(fm){
       </colgroup>
       <tbody>
          
+	           <tr> <td><span class="red_ball">06</span></td> 
+	                <td><em class="percent"><strong class="red" style='width:100%'></strong></em></td>
+	                <td>28次</td>
+	            </tr>
+	      
 	           <tr> <td><span class="red_ball">14</span></td> 
 	                <td><em class="percent"><strong class="red" style='width:100%'></strong></em></td>
-	                <td>30次</td>
-	            </tr>
-	      
-	           <tr> <td><span class="red_ball">06</span></td> 
-	                <td><em class="percent"><strong class="red" style='width:83%'></strong></em></td>
-	                <td>25次</td>
-	            </tr>
-	      
-	           <tr> <td><span class="red_ball">23</span></td> 
-	                <td><em class="percent"><strong class="red" style='width:76%'></strong></em></td>
-	                <td>23次</td>
-	            </tr>
-	      
-	           <tr> <td><span class="red_ball">20</span></td> 
-	                <td><em class="percent"><strong class="red" style='width:76%'></strong></em></td>
-	                <td>23次</td>
+	                <td>28次</td>
 	            </tr>
 	      
 	           <tr> <td><span class="red_ball">01</span></td> 
-	                <td><em class="percent"><strong class="red" style='width:73%'></strong></em></td>
-	                <td>22次</td>
+	                <td><em class="percent"><strong class="red" style='width:89%'></strong></em></td>
+	                <td>25次</td>
+	            </tr>
+	      
+	           <tr> <td><span class="red_ball">22</span></td> 
+	                <td><em class="percent"><strong class="red" style='width:85%'></strong></em></td>
+	                <td>24次</td>
+	            </tr>
+	      
+	           <tr> <td><span class="red_ball">23</span></td> 
+	                <td><em class="percent"><strong class="red" style='width:82%'></strong></em></td>
+	                <td>23次</td>
 	            </tr>
 	      
 	           <tr> <td><span class="red_ball">31</span></td> 
-	                <td><em class="percent"><strong class="red" style='width:73%'></strong></em></td>
+	                <td><em class="percent"><strong class="red" style='width:78%'></strong></em></td>
 	                <td>22次</td>
 	            </tr>
 	      
 	           <tr> <td><span class="blue_ball">16</span></td>
-	                <td><em class="percent"><strong class="blue" style='width:40%'></strong></em></td> 
+	                <td><em class="percent"><strong class="blue" style='width:42%'></strong></em></td> 
 	                <td>12次</td>
 	            </tr>
 	      
@@ -1418,39 +1418,39 @@ function checkLogin(fm){
       </colgroup>
       <tbody>
          
+	           <tr> <td><span class="red_ball">09</span></td> 
+	                <td><em class="percent"><strong class="red" style='width:100%'/></strong></em></td>
+	                <td>14次</td>
+	            </tr>
+	      
 	           <tr> <td><span class="red_ball">32</span></td> 
 	                <td><em class="percent"><strong class="red" style='width:100%'/></strong></em></td>
 	                <td>14次</td>
 	            </tr>
 	      
-	           <tr> <td><span class="red_ball">12</span></td> 
+	           <tr> <td><span class="red_ball">13</span></td> 
 	                <td><em class="percent"><strong class="red" style='width:100%'/></strong></em></td>
 	                <td>14次</td>
 	            </tr>
 	      
-	           <tr> <td><span class="red_ball">16</span></td> 
-	                <td><em class="percent"><strong class="red" style='width:100%'/></strong></em></td>
-	                <td>14次</td>
-	            </tr>
-	      
-	           <tr> <td><span class="red_ball">24</span></td> 
+	           <tr> <td><span class="red_ball">27</span></td> 
 	                <td><em class="percent"><strong class="red" style='width:92%'/></strong></em></td>
 	                <td>13次</td>
+	            </tr>
+	      
+	           <tr> <td><span class="red_ball">33</span></td> 
+	                <td><em class="percent"><strong class="red" style='width:71%'/></strong></em></td>
+	                <td>10次</td>
 	            </tr>
 	      
 	           <tr> <td><span class="red_ball">17</span></td> 
-	                <td><em class="percent"><strong class="red" style='width:92%'/></strong></em></td>
-	                <td>13次</td>
-	            </tr>
-	      
-	           <tr> <td><span class="red_ball">04</span></td> 
-	                <td><em class="percent"><strong class="red" style='width:85%'/></strong></em></td>
-	                <td>12次</td>
+	                <td><em class="percent"><strong class="red" style='width:64%'/></strong></em></td>
+	                <td>9次</td>
 	            </tr>
 	      
 	           <tr> <td><span class="blue_ball">15</span></td>
-	                <td><em class="percent"><strong class="blue" style='width:14%'></strong></em></td> 
-	                <td>2次</td>
+	                <td><em class="percent"><strong class="blue" style='width:21%'></strong></em></td> 
+	                <td>3次</td>
 	            </tr>
 	      
       </tbody>
@@ -1489,17 +1489,17 @@ function checkLogin(fm){
     </div>
     <div class="block gray_border" style="border-top:0">
 	  <div class="all_title gray_title">
-	    <div class="title_m f14"><a href="http://zx.caipiao.163.com/ssq/yuce/2018016.html" target="_blank">双色球2018016期预测</a></div>
+	    <div class="title_m f14"><a href="http://zx.caipiao.163.com/ssq/yuce/2018002.html" target="_blank">双色球2018002期预测</a></div>
 	  </div>
 	  <ul class="right_list" >
 	  	
-				<li> <a href="http://cai.163.com/article/18/0205/09/D9SE5S64000597U8.html"  target="_blank" title="[铁蛋]18016期双色球解析:应重...">[铁蛋]18016期双色球解析:应重...</a></li>
+				<li> <a href="http://cai.163.com/article/18/0103/08/D779FRQ4000597U8.html"  target="_blank" title="[铁蛋]18002期双色球奖号解析:...">[铁蛋]18002期双色球奖号解析:...</a></li>
 			
-				<li> <a href="http://cai.163.com/article/18/0205/09/D9SFDDA8000597U8.html"  target="_blank" title="[碧云天]双色球第18016期预测:...">[碧云天]双色球第18016期预测:...</a></li>
+				<li> <a href="http://cai.163.com/article/18/0103/09/D77EIUE5000597U8.html"  target="_blank" title="[铁蛋]18002期双色球解析:应预...">[铁蛋]18002期双色球解析:应预...</a></li>
 			
-				<li> <a href="http://cai.163.com/article/18/0205/09/D9SFEAS0000597U8.html"  target="_blank" title="[乐心小天]双色球18016期预测:...">[乐心小天]双色球18016期预测:...</a></li>
+				<li> <a href="http://cai.163.com/article/18/0103/09/D77EUK2R000597U8.html"  target="_blank" title="[匡吉]双色球第18002期预测:关...">[匡吉]双色球第18002期预测:关...</a></li>
 			
-				<li> <a href="http://cai.163.com/article/18/0205/10/D9SI4E0U000597U8.html"  target="_blank" title="[黑蝴蝶]双色球第18016期:奇偶...">[黑蝴蝶]双色球第18016期:奇偶...</a></li>
+				<li> <a href="http://cai.163.com/article/18/0103/09/D77F01RN000597U8.html"  target="_blank" title="[封金]双色球第18002期预测:两...">[封金]双色球第18002期预测:两...</a></li>
 			
 	  </ul>
 	</div>

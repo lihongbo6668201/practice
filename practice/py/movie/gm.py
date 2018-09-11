@@ -33,20 +33,19 @@ for i in range( len( slist ) ):
         mres.raise_for_status()
         msoap = bs4.BeautifulSoup( mres.text.encode('iso-8859-1').decode('gbk'), "html.parser" )
 
-        #取名称和评分
+        #获取电影名称
         title = msoap.select('title')
         sheet['A'+str(rownum)] = title[0].getText()
         logging.info( title[0].getText() )
 
+        #获取电影评分
         score = msoap.select('span strong')
         sheet['B'+str(rownum)] = score[0].getText()
         logging.info( score[0].getText() )
 
-        #获取下载链接
+        #获取下载链接,有多个下载地址时只取第一个
         mlist = msoap.select( 'table tbody tr td a' )
-        for j in range( len( mlist ) ):
-            sheet['C'+str(rownum)] = mlist[j].get('href')
-            rownum += 1
+        sheet['C'+str(rownum)] = mlist[0].get('href')
         rownum += 1
     
-resFile.save('movie.xlsx')
+resFile.save('mov.xlsx')
