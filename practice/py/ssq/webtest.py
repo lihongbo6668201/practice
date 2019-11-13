@@ -1,20 +1,20 @@
 #! /usr/bin/python3
-#import webbrowser
-#webbrowser.open('http://inventwithpython.com/')
-#webbrowser.open('https://www.google.com/maps/place/Bank+of+Gansu/')
 
+import os
 import requests
-id = 2018001
 
+int_id = 2018001
 
-for id in range(id,2018030):
-    res = requests.get('http://caipiao.163.com/award/ssq/%d.html' % id)
+# 创建目录
+path = r'C:\双色球'
+if not os.path.exists(path):
+    os.makedirs(path)
+
+# 循环下载文件
+for int_idx in range(int_id, 2018030):
+    res = requests.get('http://caipiao.163.com/award/ssq/%d.html' % int_idx)
     res.raise_for_status()
-    outFile = open('ssq'+str(id)+'.txt', 'w+')
+    outFile = open(path + '\\' + str(int_idx)+'.txt', 'w+')
     outFile.write(res.text)
     outFile.close()
-#if res.status_code == requests.codes.ok:
-#    print('True')
-
-#print(res.text)
-#print(res.text[:250])
+    print(str(int_idx) + '.txt下载完成')
