@@ -10,6 +10,7 @@ path = r'C:\双色球'
 if not os.path.exists(path):
     os.makedirs(path)
 
+
 # 循环下载文件
 for int_idx in range(int_id, 2018030):
     res = requests.get('http://caipiao.163.com/award/ssq/%d.html' % int_idx)
