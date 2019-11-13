@@ -9,6 +9,6 @@ while True:
     else:
         print('I do not have birthday information for ' + name)
         print('What is their birthday?')
-        bday=input()
+        bday = input()
         birthdays[name] = bday
         print('Birthday database updated.')

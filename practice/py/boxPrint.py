@@ -11,10 +11,11 @@ def boxPrint(symbol, width, height):
         print(symbol + (' ' * (width - 2)) + symbol)
     print(symbol * width)
 
+
 testPara = [('*', 4,  4), ('0', 20, 5), ('x', 1, 3), 
             ('ZZ',3,  3), ('p', 4,  5), ('-', 3, 4),
             ('+', 2,  2), ('j', 2, 10), ('@', 6, 6)]
-#for sym, w, h in (('*', 4, 4), ('0', 20, 5), ('x', 1, 3), ('ZZ', 3, 3)):
+# for sym, w, h in (('*', 4, 4), ('0', 20, 5), ('x', 1, 3), ('ZZ', 3, 3)):
 for sym, w, h in testPara:
     try:
         boxPrint(sym, w, h)
