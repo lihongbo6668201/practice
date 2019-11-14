@@ -1,7 +1,7 @@
 #! python3
 # getmov.py - Get movie downlinks from www.dy2018.com
 
-import requests, bs4, webbrowser, logging, openpyxl
+import requests, bs4, logging, openpyxl, time
 
 #设置日志
 logging.disable(logging.DEBUG)
@@ -15,7 +15,7 @@ slist = soap.select( 'td b a' )
 
 #将爬取结果写入excel中
 resFile = openpyxl.Workbook()
-sheet = resFile.get_active_sheet()
+sheet = resFile.active
 sheet.title = "movie list"
 
 sheet['A1'] = "电影名称"
@@ -48,4 +48,4 @@ for i in range( len( slist ) ):
         sheet['C'+str(rownum)] = mlist[0].get('href')
         rownum += 1
     
-resFile.save('mov.xlsx')
+resFile.save( 'mov_' + time.strftime('%Y%m%d', time.localtime()) + '.xlsx' )
