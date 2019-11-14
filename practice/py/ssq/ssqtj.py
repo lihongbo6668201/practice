@@ -1,10 +1,10 @@
 #! /usr/bin/python3
 
+import logging
 import os
 import bs4
 import openpyxl
 import requests
-import logging
 
 #设置日志
 logging.disable(logging.DEBUG)
@@ -23,6 +23,8 @@ sheet['A1'] = "红号列表"
 sheet['B1'] = "出现次数"
 sheet['C1'] = "蓝号列表"
 sheet['D1'] = "出现次数"
+sheet['E1'] = "历届开奖"
+row_num = 2
 
 # 表格初始化
 for idx in range(1, 34):
@@ -32,20 +34,7 @@ for idx in range(1, 34):
         sheet['C' + str(idx + 1)] = idx
         sheet['D' + str(idx + 1)] = 0
 
-# 循环下载文件
-'''for int_idx in range(int_id, 2018030):
-    # http://kaijiang.500.com/ssq.shtml
-    # http://kaijiang.500.com/shtml/ssq/19008.shtml
-    res = requests.get('http://caipiao.163.com/award/ssq/%d.html' % int_idx)
-    res.raise_for_status()
-    outFile = open(path + '\\' + str(int_idx)+'.txt', 'w+')
-    outFile.write(res.text)
-    outFile.close()
-    print(str(int_idx) + '.txt下载完成')'''
-
-#rownum = 2
-
-resFile.save(path + '\\' + 'movfy_20191110.xlsx')
+# resFile.save(path + '\\' + 'movfy_20191110.xlsx')
 
 # 主页面爬取
 res = requests.get("http://kaijiang.500.com/ssq.shtml")
@@ -56,12 +45,16 @@ soap = bs4.BeautifulSoup(res.text.encode('iso-8859-1'), "html.parser")
 sfy = soap.select('span div a')
 print('共' + str(len(sfy)) + '期' )
 
+headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"}
+head={"User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"}
+
 # 循环所有分页
-# for idx in range(len(sfy)):
-for idx in range(10):
+for idx in range(50):
+# for idx in range(2):
+    redlist = ''
     suburl = sfy[idx].get('href')
     logging.info(suburl)
-    subres = requests.get(suburl)
+    subres = requests.get(suburl, headers=head)
     subres.raise_for_status()
 
     # 解析子页面
@@ -69,17 +62,24 @@ for idx in range(10):
     sublist = subsoap.select('tr td div ul li')
 
     # 解析红蓝号
-    print("第%s" % sfy[idx].getText() + "期，红号：", end="")
     for subidx in range(6):
         # 红号
         red_no = sublist[subidx].getText()
-        print(red_no + " ", end="")
+        redlist += sublist[subidx].getText() + ' '
+        red_idx = int(red_no)
+        sheet['B' + str(red_idx + 1)].value += 1
 
     # 蓝号
     blue_no = sublist[6].getText()
-    print("蓝号：", blue_no)
+    blue_idx = int(blue_no)
+    # print(sheet['D' + str(blue_idx + 1)].value)
+    sheet['D' + str(blue_idx + 1)].value += 1
+    result = "第" + sfy[idx].getText() + "期：" + redlist + '| ' + blue_no
+    print(result)
+    sheet['E' + str(idx + 2)] = result
 
-    ''''# 循环处理单个子页面
+resFile.save(path + '\\' + 'ssq_new.xlsx')
+'''# 循环处理单个子页面
     for i in range(len(sublist)):
 
         if "dyzz" in sublist[i].get('href') or "oumeitv" in sublist[i].get('href'):
