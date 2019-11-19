@@ -3,6 +3,7 @@
 import logging
 import os
 import bs4
+import time
 import openpyxl
 import requests
 
@@ -49,10 +50,15 @@ headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36
 head={"User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"}
 
 # 循环所有分页
-for idx in range(50):
+for idx in range(len(sfy)):
 # for idx in range(2):
     redlist = ''
     suburl = sfy[idx].get('href')
+    subtxt = sfy[idx].getText()
+
+    if subtxt != '17001':
+        continue
+
     logging.info(suburl)
     subres = requests.get(suburl, headers=head)
     subres.raise_for_status()
@@ -66,16 +72,20 @@ for idx in range(50):
         # 红号
         red_no = sublist[subidx].getText()
         redlist += sublist[subidx].getText() + ' '
-        red_idx = int(red_no)
-        sheet['B' + str(red_idx + 1)].value += 1
+        print(red_no)
+        if red_no.isdigit() is True:
+            print(len(red_no))
+            red_idx = int(red_no)
+            sheet['B' + str(red_idx + 1)].value += 1
 
     # 蓝号
     blue_no = sublist[6].getText()
-    blue_idx = int(blue_no)
-    # print(sheet['D' + str(blue_idx + 1)].value)
-    sheet['D' + str(blue_idx + 1)].value += 1
+    if len(blue_no) > 0:
+        blue_idx = int(blue_no)
+        sheet['D' + str(blue_idx + 1)].value += 1
+
     result = "第" + sfy[idx].getText() + "期：" + redlist + '| ' + blue_no
     print(result)
     sheet['E' + str(idx + 2)] = result
 
-resFile.save(path + '\\' + 'ssq_new.xlsx')
+resFile.save(path + '\\' + 'ssq_new_'  + time.strftime('%Y%m%d%H%M%S', time.localtime()) + '.xlsx')

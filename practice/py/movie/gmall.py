@@ -79,4 +79,4 @@ for idx in range(len(sfy)):
                 sheet['C'+str(rownum)] = mlist[0].get('href')
             rownum += 1
     
-resFile.save('gmall_' + time.strftime('%Y%m%d', time.localtime()) + '.xlsx')
+resFile.save('gmall_' + time.strftime('%Y%m%d%H%M%S', time.localtime()) + '.xlsx')
