@@ -29,6 +29,7 @@ def run_game():
         ship.update()
         # bullets.update(bullets)
         gf.update_bullets(bullets)
+        gf.update_aliens(aliens, ai_settings)
         gf.update_screen(ai_settings, screen, ship, bullets, aliens)
 
         # 让最近绘制的屏幕可见

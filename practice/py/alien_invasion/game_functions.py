@@ -55,6 +55,17 @@ def update_bullets(bullets):
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
 
+def update_aliens(aliens, ai_setting):
+    """更新外星人的位置，删除已经消失的外星人"""
+    # 更新子弹的位置
+    aliens.update()
+
+    # 已消失的外星人向相反方向移动
+    # for alien in aliens.sprites():
+        # if alien.rect.x >= ai_setting.screen_width:
+            # aliens.update_left(alien)
+
+
 def fire_bullet(ai_settings, screen, ship, bullets):
     # 创建一颗子弹，并将其加入到编组bullets中
     if len(bullets) < ai_settings.bullet_allowed:
@@ -85,7 +96,6 @@ def create_fleet(ai_settings, screen, ship, aliens):
     alien_rows = get_number_rows(ai_settings, ship.rect.height, alien.rect.height)
 
     # 创建第一行外星人
-
     for row_num in range(alien_rows):
         for alien_number in range(alien_number + 1):
             create_alien(ai_settings, screen, aliens, row_num, alien_number)
